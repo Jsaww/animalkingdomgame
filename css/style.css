@@ -1,4 +1,42 @@
-/* //Pseudo Code */ 
-h1 {
-    color:darkseagreen
-    }
+*{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  text-align: center;
+  height: 50px;
+  font-size: xx-large;
+  text-shadow: 40px 40px 40px;
+  
+}
+
+body {
+  background-repeat: no-repeat;
+  background-image: url("https://i.pinimg.com/originals/33/b0/85/33b0854053ea074f8a217fb19d3f6022.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.btn {
+margin: 0 auto;
+text-shadow: 40px 40px 40px;
+border-radius: 25px;
+cursor: pointer;
+}
+
+@media (max-width: 600px){
+  *{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: center;
+    height: 25px;
+    font-size: large;
+    text-shadow: 40px 40px 40px;
+  }
+  .btn{
+  border-radius: 15px;
+  border-color: black;
+  }
+}

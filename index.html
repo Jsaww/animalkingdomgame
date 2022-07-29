@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- //Pseudo Code -->
 <script defer src="js/app.js"></script>
 <link rel="stylesheet" href="css/style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Animal Kingdom Game</title>
 </head>
 <body>
- <h1>Animal Kingdom</h1>   
-
-
+  <h1>Animal Kingdom</h1>
+  <div>Escape Attempts: <span id='wrong'>0</span> of <span id='incorrect'></span></div>
+  <button class="btn" onClick="restartGame()">Restart Game</button>
+    <p>Survive The Safari Expedition By Guessing The Attacking Animals Name Below</p>
+    <p id="winLoseText">Guess Animal Name</p>
+    <div id="The keys"></div>
+    <br>
+    <br>
+    <p>Use The Keys To Guess</p>
 </body>
 </html>
