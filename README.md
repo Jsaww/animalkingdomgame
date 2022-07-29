@@ -3,6 +3,10 @@ Title:
 Animal kingdom 
 
 Images:
+<br>
+<img width="1722" alt="Animal Kingdom" src="https://user-images.githubusercontent.com/109007922/181683792-e249c9e5-3d22-4430-851c-7e7985d6cb21.png">
+<img width="1728" alt="Animal Kingdom 2" src="https://user-images.githubusercontent.com/109007922/181683796-e2ff4ff7-573b-4940-9797-ad40fa0ccc14.png">
+
 
 Introduction:
 <br>
